@@ -1,0 +1,106 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game {
+  padding: 10px;
+  display: grid;
+  height: 100vh;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.player {
+  border: 1px #ececec solid;
+}
+
+.detective {
+  stroke: magenta;
+  fill: none;
+  stroke-width: 3;
+}
+
+.selected {
+  stroke: magenta;
+  fill: none;
+  stroke-width: 3;
+}
+
+.location {
+  color: #333;
+}
+
+.transportation {
+  color: #333;
+}
+
+.detective-1 {
+  stroke: hotpink;
+  color: hotpink;
+}
+
+.detective-2 {
+  stroke: coral;
+  color: coral;
+}
+
+.detective-3 {
+  stroke: aquamarine;
+  color: aquamarine;
+}
+
+.detective-4 {
+  stroke: royalblue;
+  color: royalblue;
+}
+
+.detective-5 {
+  stroke: gold;
+  color: gold;
+}
+
+.mr-x {
+  stroke: slategray;
+}
+
+.station {
+  stroke: black;
+  fill: transparent;
+}
+
+.station:hover {
+  cursor: pointer;
+  stroke: red;
+  stroke-width: 2;
+}
+
+.available {
+  stroke-width: 3;
+}
+
+.taxi {
+  stroke: yellow;
+}
+
+.underground {
+  stroke: crimson;
+}
+
+.bus {
+  stroke: turquoise;
+}
+
+.river {
+  stroke: black;
+}
+.game-board {
+  background-image: url("/assets/map_large.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
